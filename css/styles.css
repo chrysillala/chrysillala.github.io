@@ -430,7 +430,7 @@ h1.error {
     font-size: 50px;
 }
 .our-pic {
-    transform: rotate(180deg);
+    /*transform: rotate(180deg);*/
     width: 70%;
     margin: 5px auto;
 }
