@@ -28,16 +28,23 @@
     /* is width and height divided by two */
 }
 body {
-    font-family: 'Arimo','Open Sans', sans-serif;
+    font-family: 'Amatic SC', cursive;
     color: #fff;
     font-size: 18px;
     line-height: 22px;
     background-color: #b8a9c9;
-	// background-image:url(../img/bg1.jpg);
+	/*background-image:url(../img/bg1.jpg);*/
 	background-size: cover;
 	background-repeat:no-repeat;
     font-weight: normal;
-	
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+}
+p span {
+    font-size: 25px;
+    font-weight: 900;
 }
 
 /*
@@ -70,12 +77,16 @@ h6 {
     margin: 0;
     padding: 0;
 }
+footer {
+    color: #6b5b95;
+    margin: 30px;
+}
 .homepage #logo {
     margin: 0 0 26px 0;
 }
-.home {
+/*.home {
     background: #e6e9ed url(../img/bg-body.png) left top repeat-x;
-}
+}*/
 .main-wrapper {
     padding: 10% 20px 0 20px;
     margin: 0 auto;
@@ -84,8 +95,9 @@ h6 {
 
 #logo {
     text-align: center;
-    margin: -25px 0 35px 0;
+    margin: 0 auto;
     padding: 0;
+    width: 70%;
 }
 #logo a {
     display: inline-block;
@@ -122,7 +134,7 @@ h6 {
     text-align: center;
     height: 240px;
     height: auto;
-    margin-bottom: 40px;
+    margin: 40px;
     border-bottom: 1px solid #d6d4e0;
 }
 .count-down li {
