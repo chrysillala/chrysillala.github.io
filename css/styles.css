@@ -431,7 +431,7 @@ h1.error {
 }
 .our-pic {
     /*transform: rotate(180deg);*/
-    width: 70%;
+    width: 50%;
     margin: 5px auto;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
