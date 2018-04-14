@@ -413,7 +413,22 @@ h1.error {
     background-color: #ffcc00;
 }
 /*Template color option end here*/
-
+.hideClass {
+    display: none !important;
+}
+.showClass {
+    display: block;
+}
+.surprise {
+    text-align: center;
+}
+.surprise {
+    font-weight: 900;
+    color: #622569;
+}
+.surprise h1 {
+    font-size: 50px;
+}
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     .count-down li input {
         margin-top: 60px !important;

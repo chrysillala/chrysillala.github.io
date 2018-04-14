@@ -37,9 +37,15 @@
 			$mm.val(_dmin).trigger("change");
 			$hh.val(_dhour).trigger("change");
 			$dd.val(_dday).trigger("change");
-};
+			if (_dd < 0) {
+				$(".count-down").addClass("hideClass");
+				$(".surprise").removeClass("hideClass").addClass("showClass fade-down");
+				clearInterval(setTime);
+				console.log('HAPPY 1000th DAYS!!!');
+			}
+		};
 		_changeTime();
-		setInterval(_changeTime, 1000);
+		var setTime = setInterval(_changeTime, 1000);
 	};
  
 })(jQuery);
